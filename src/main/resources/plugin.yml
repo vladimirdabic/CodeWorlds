@@ -1,0 +1,13 @@
+name: CodeWorlds
+version: ${project.version}
+main: me.shortint.codeworlds.CodeWorldsPlugin
+authors: [ shortint ]
+description: Custom scripting for worlds
+commands:
+  codeworlds:
+    usage: /codeworlds
+    description: Main CodeWorlds command
+    aliases:
+      - cw
+      - cworlds
+    permission: codeworlds.main
